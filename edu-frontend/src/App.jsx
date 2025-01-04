@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Web3 from "web3";
 import CourseSubABI from "./CourseSubABI.json";
 
-const CONTRACT_ADDRESS = "0x849667a57C2cC74D3cC38d58188071B2e0B4Da78";
+const CONTRACT_ADDRESS = "0x85A9Fe30E7Ab504cd278a778A6A330b3818B436D";
 
 const CourseSubscription = () => {
   const [web3, setWeb3] = useState(null);
